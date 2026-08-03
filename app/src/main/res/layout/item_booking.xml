@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+
+    android:padding="16dp"
+
+    android:layout_margin="8dp"
+
+    android:background="#FFFFFF"
+
+    android:elevation="3dp">
+
+    <!-- Parking Name -->
+
+    <TextView
+        android:id="@+id/txtParkingName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Parking Name"
+
+        android:textSize="20sp"
+
+        android:textStyle="bold"
+
+        android:textColor="#000"/>
+
+    <!-- Booking Time -->
+
+    <TextView
+        android:id="@+id/txtTime"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="22 May 2026"
+
+        android:textSize="15sp"
+
+        android:textColor="#444"
+
+        android:layout_marginTop="8dp"/>
+
+    <!-- Device -->
+
+    <TextView
+        android:id="@+id/txtDevice"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Samsung"
+
+        android:textSize="15sp"
+
+        android:textColor="#444"
+
+        android:layout_marginTop="6dp"/>
+
+    <!-- Status -->
+
+    <TextView
+        android:id="@+id/txtStatus"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Booked"
+
+        android:textSize="16sp"
+
+        android:textStyle="bold"
+
+        android:textColor="#4CAF50"
+
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/cancel_booking"
+
+        android:layout_marginTop="10dp"
+
+        android:backgroundTint="#F44336"
+
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

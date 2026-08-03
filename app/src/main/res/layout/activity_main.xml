@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:background="#F5F5F5">
+
+    <!-- Search Bar -->
+
+    <EditText
+        android:id="@+id/edtSearch"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:hint="@string/search_parking"
+
+        android:padding="14dp"
+
+        android:textSize="16sp"
+
+        android:background="#FFFFFF"
+
+        android:layout_margin="8dp"/>
+
+    <!-- Map -->
+
+    <WebView
+        android:id="@+id/webView"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+{
+  "parkingSpots": {
+    "parking1": {
+      "name": "Phoenix Mall Parking",
+      "lat": 19.0860,
+      "lon": 72.8890,
+      "available": 10
+    },
+    "parking2": {
+      "name": "BKC Parking",
+      "lat": 19.0670,
+      "lon": 72.8690,
+      "available": 5
+    }
+  }
+}

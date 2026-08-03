@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+
+    android:padding="16dp"
+
+    android:layout_margin="8dp"
+
+    android:background="#FFFFFF"
+
+    android:elevation="4dp">
+
+    <!-- Parking Name -->
+
+    <TextView
+        android:id="@+id/txtName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Parking Name"
+
+        android:textSize="22sp"
+
+        android:textStyle="bold"
+
+        android:textColor="#000"/>
+
+    <!-- Slots -->
+
+    <TextView
+        android:id="@+id/txtSlots"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Available Slots: 10"
+
+        android:textSize="16sp"
+
+        android:textColor="#333"
+
+        android:layout_marginTop="10dp"/>
+
+    <!-- Buttons -->
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        android:layout_marginTop="14dp">
+
+        <!-- Book -->
+
+        <Button
+            android:id="@+id/btnBook"
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:text="@string/book_slot"/>
+
+        <!-- Navigate -->
+
+        <Button
+            android:id="@+id/btnNavigate"
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:text="@string/navigate"
+
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">स्मार्ट पार्किंग फाइंडर</string>
+
+    <string name="parking_list">पार्किंग सूची</string>
+
+    <string name="my_bookings">मेरी बुकिंग</string>
+
+    <string name="admin_login">एडमिन लॉगिन</string>
+
+    <string name="about">जानकारी</string>
+
+    <string name="exit">बाहर निकलें</string>
+
+    <string name="refresh">रीफ्रेश</string>
+
+    <string name="book_slot">बुक स्लॉट</string>
+
+    <string name="navigate">नेविगेट</string>
+
+    <string name="parking_full">पार्किंग फुल</string>
+
+    <string name="available_slots">उपलब्ध स्लॉट</string>
+
+    <string name="search_parking">पार्किंग खोजें</string>
+
+    <string name="cancel_booking">बुकिंग रद्द करें</string>
+
+    <string name="view_bookings">बुकिंग देखें</string>
+
+    <string name="manage_parking">पार्किंग प्रबंधित करें</string>
+
+    <string name="add_parking">पार्किंग जोड़ें</string>
+
+    <string name="logout">लॉगआउट</string>
+
+</resources>

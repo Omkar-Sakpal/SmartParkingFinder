@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">સ્માર્ટ પાર્કિંગ ફાઇન્ડર</string>
+
+    <string name="parking_list">પાર્કિંગ યાદી</string>
+
+    <string name="my_bookings">મારી બુકિંગ</string>
+
+    <string name="admin_login">એડમિન લોગિન</string>
+
+    <string name="about">વિશે</string>
+
+    <string name="exit">બહાર નીકળો</string>
+
+    <string name="refresh">રીફ્રેશ</string>
+
+    <string name="book_slot">સ્લોટ બુક કરો</string>
+
+    <string name="navigate">નેવિગેટ</string>
+
+    <string name="parking_full">પાર્કિંગ ફુલ</string>
+
+    <string name="available_slots">ઉપલબ્ધ સ્લોટ</string>
+
+    <string name="search_parking">પાર્કિંગ શોધો</string>
+
+    <string name="cancel_booking">બુકિંગ રદ કરો</string>
+
+    <string name="view_bookings">બુકિંગ જુઓ</string>
+
+    <string name="manage_parking">પાર્કિંગ મેનેજ કરો</string>
+
+    <string name="add_parking">પાર્કિંગ ઉમેરો</string>
+
+    <string name="logout">લૉગઆઉટ</string>
+
+</resources>

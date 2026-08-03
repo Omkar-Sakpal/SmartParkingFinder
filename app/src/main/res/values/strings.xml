@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">Smart Parking Finder</string>
+
+    <string name="parking_list">Parking List</string>
+
+    <string name="my_bookings">My Bookings</string>
+
+    <string name="admin_login">Admin Login</string>
+
+    <string name="about">About</string>
+
+    <string name="exit">Exit</string>
+
+    <string name="refresh">Refresh</string>
+
+    <string name="book_slot">Book Slot</string>
+
+    <string name="navigate">Navigate</string>
+
+    <string name="parking_full">Parking Full</string>
+
+    <string name="available_slots">Available Slots</string>
+
+    <string name="search_parking">Search Parking</string>
+
+    <string name="cancel_booking">Cancel Booking</string>
+
+    <string name="view_bookings">View Bookings</string>
+
+    <string name="manage_parking">Manage Parking</string>
+
+    <string name="add_parking">Add Parking</string>
+
+    <string name="logout">Logout</string>
+
+</resources>
