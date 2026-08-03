@@ -1,6 +1,6 @@
 # Smart Parking Finder
 
-Smart Parking Finder is an Android application designed to help users easily find, view, and book parking spots, while providing an administrative dashboard for parking space management. The application leverages real-time database capabilities and location services to provide a seamless user experience.
+Smart Parking Finder is an Android application that enables users to locate, view, and book nearby parking spaces using OpenStreetMap, GPS, and Firebase Realtime Database. The application also provides an administrator dashboard for managing parking locations, bookings, and slot availability in real time.
 
 ## 🚀 Features
 
@@ -14,7 +14,7 @@ Smart Parking Finder is an Android application designed to help users easily fin
 
 ### For Administrators
 * **Admin Dashboard:** A dedicated interface for admins to manage the entire parking ecosystem.
-* **Secure Login:** Access to the admin dashboard is protected via credentials (`admin@gmail.com`).
+* **Secure Login:** Access to the admin dashboard is protected via credentials.
 * **Manage Parking Spaces:** Add new parking locations, update existing ones, or remove them.
 * **Manage Bookings:** View and oversee all bookings made by users across all parking locations.
 
@@ -29,6 +29,7 @@ Smart Parking Finder is an Android application designed to help users easily fin
   * RecyclerView & CardView (for displaying lists of parking spots and bookings)
 * **Backend & Database:** Firebase Realtime Database (`com.google.firebase:firebase-database`) for storing and syncing parking slots and bookings in real-time.
 * **Location Services:** Google Play Services Location (`com.google.android.gms:play-services-location`) for fetching coarse and fine user location.
+* * **Maps:** OpenStreetMap with Leaflet for displaying parking locations and navigation.
 
 ## 🏗️ Architecture & App Logic
 
@@ -61,6 +62,6 @@ To function properly, the app requests the following Android permissions:
 
 ## 📝 Future Enhancements
 
-* Integration with Google Maps SDK for an interactive in-app map view.
+* Enhanced navigation features and real-time parking availability updates.
 * Payment gateway integration for handling parking fees.
 * Push notifications for booking confirmations and time expiration.
